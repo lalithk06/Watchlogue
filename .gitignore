@@ -1,0 +1,18 @@
+# Java / Maven
+backend/target/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+application-local.properties
+
+# Frontend dependencies and builds
+frontend/node_modules/
+frontend/dist/
+
+# IDE and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
